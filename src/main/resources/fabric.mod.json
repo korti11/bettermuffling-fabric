@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "bettermuffling",
+  "version": "${version}",
+  "name": "Better Muffling",
+  "description": "Did you hear something? (Fabric edition)",
+  "authors": [
+    "Korti11"
+  ],
+  "contributors": [],
+  "contact": {
+    "homepage": "http://bettermuffling.korti.io",
+    "sources": "https://github.com/korti11/bettermuffling-fabric"
+  },
+  "license": "All-Rights-Reserved",
+  "icon": "assets/bettermuffling/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.korti.bettermuffling.BetterMuffling"
+    ],
+    "client": [],
+    "server": []
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.8.9",
+    "fabric": "*"
+  }
+}
