@@ -15,7 +15,7 @@ pipeline {
 
         stage('Build') {
             steps {
-                sh './gradlew clean build --refresh-dependencies'
+                sh './gradlew clean build --no-daemon --refresh-dependencies'
             }
         }
     }
